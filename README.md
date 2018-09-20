@@ -37,6 +37,6 @@ If the email and password are valid, the response looks like `{"identity_token":
 
 This app can be deployed on any server which can run Ruby 2.3 and PostgreSQL. It is easiest to deploy to [Heroku](https://www.heroku.com/what), which you can do for free:
 
-* [Click this link](https://heroku.com/deploy?template=https://github.com/layerhq/instastart-identity-provider/tree/master) (this is configured in [app.json](app.json))
+* [Click this link](https://heroku.com/deploy?template=https://github.com/starostin/instastart-identity-provider/tree/master) (this is configured in [app.json](app.json))
 * Fill in the `ENV` variables at the bottom of the page with the keys from your [Layer developer dashboard](https://developer.layer.com/projects/keys). You will also need to [generate an RSA keypair](https://rietta.com/blog/2012/01/27/openssl-generating-rsa-key-from-command/) and paste the entire private key (including the `-----BEGIN RSA PRIVATE KEY-----` header and `-----END RSA PRIVATE KEY-----` footer) in the `LAYER_PRIVATE_KEY` field.
 * Click the purple "Deploy" button; Heroku will take care of the rest. When it's finished, click "View app" to make sure everything is running.
