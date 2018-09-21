@@ -102,7 +102,7 @@ GEM
     pg (0.19.0)
     pkg-config (1.1.7)
     public_suffix (2.0.5)
-    puma (3.6.0)
+    puma (3.12.0)
     rack (2.0.1)
     rack-cors (0.4.0)
     rack-test (0.6.3)
@@ -212,7 +212,7 @@ DEPENDENCIES
   webmock (= 2.3.2)
 
 RUBY VERSION
-   ruby 2.4.4p296
+   ruby 2.4.0p0
 
 BUNDLED WITH
-   1.13.3
+   1.16.1
